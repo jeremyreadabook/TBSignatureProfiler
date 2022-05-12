@@ -5,7 +5,7 @@ ImmuneSignaturesReactome <- list(LXA4_Reactome_Lung_5 = c("HBGD", "ALOX5", "ALOX
                                  LTB4_Reactome_Lung_36 = c("CYP1A2",	"DPEP3",	"CYP4F22",	"CYP2C8",	"ALOX15",	"ALOX15B",	"CYP4F3",	"GPX2",	"PON3",	"CYP4B1",	"CYP2J2",	"FAAH2",	"GGT1",	"ALOX12",	"PTGR2",	"HPGD",	"PTGIS",	"ALOX5",	"PTGS2",	"PTGES",	"PLA2G4A",	"TBXAS1",	"HPGDS",	"DPEP2",	"LTC4S",	"PTGES3",	"GPX4",	"GPX1",	"MAPKAPK2",	"CBR1",	"PTGR1",	"PON2",	"LTA4H",	"ALOX5AP",	"EPHX2",	"PTGS1"),
                                  PGE2_Reactome_Lung_14 = c("PTGR2","HPGD","PTGIS","PTGS2","PTGES","TBXAS1","HPGDS","PTGES3","CBR1","PTGS1","AKR1C3","PTGDS","PTGES2","PRXL2B"))
 
-# ## Add new signatures to the profiler (edited from the original new_micronutrients_code_sample.RMD)
+# ## Add new signatures to the profiler (in Arthurs Code) (edited from the original new_micronutrients_code_sample.RMD)
 # TBsignatures$LXA4_Reactome_Lung_5 <- c("HBGD", "ALOX5", "ALOX5AP", "PTGR1", "LTC4S")
 # 
 # TBsignatures$MyD88_Reactome_Lung_15_DN <- c("FGA", "TLR6", "S100A1", "BTK", "TLR2", "TLR1", "S100A1", "S100A8", "CD14", "CD36", "HMGB1", "MYD88", "LY96", "TLR4", "TIRAP")
