@@ -27,7 +27,7 @@ ImmuneSignaturesReactome <- list(LXA4_Reactome_Lung_5 = c("HBGD", "ALOX5", "ALOX
 # 
 # TBsignatures$VDR_Reactome_Lung_9 <- c("LRP2", "CUBN", "CYP27B1", "VDR", "LGMN", "SUMO2", "UBE2I", "PIAS4", "CYP2R1")
 #
-# TBsignatures$LL37_Reactome_Lung_14 <- c("ART1", "DEFA3", "BPIFB1", "CAMP", "PGLYRP1", "ELANE", "CHGA", "PRSS2", "PI3", "DEFB124", "ITLN1", "DEFB1", "CTSG", "SLC11A1"))
+# TBsignatures$LL37_Reactome_Lung_14 <- c("ART1", "DEFA3", "BPIFB1", "CAMP", "PGLYRP1", "ELANE", "CHGA", "PRSS2", "PI3", "DEFB124", "ITLN1", "DEFB1", "CTSG", "SLC11A1")
 #
 # #selected tb signatures
 # samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_5, TBsignatures$MyD88_Reactome_Lung_15_DN, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14)
