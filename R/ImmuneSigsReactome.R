@@ -39,9 +39,13 @@ TBsignatures$STAT3_Reactome_Lung_3 <- c("NTRK1", "NGF", "STAT3")
 
 TBsignatures$SOCS3_Reactome_Lung_22 <- c("IL6", "OSM", "CNTFF", "CNTFR", "CRLF1", "LIFR", "LIF", "CLCF1", "SOCS3", "IL6S3", "IL6ST", "JAK1", "STAT1", "STAT3", "PTPN11", "TYK2", "JAK2", "OSMR", "IL6R", "IL11RA", "CBL", "CTF1")
 
+TBsignatures$NO_Reactome_Lung_3 <- c("NOS2", "KPNB1", "KPNA1")
+
+TBsignatures$Autophagy_Reactome_Lung_2 <- c("RAB7A", "DUSP16")
+
 #selected tb signatures
-samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_5, TBsignatures$MyD88_Reactome_Lung_15_DN, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14, TBsignatures$BH3_Reactome_Lung_9, TBsignatures$p38MAPK_Reactome_Lung_43, TBsignatures$STAT3_Reactome_Lung_3, TBsignatures$SOCS3_Reactome_Lung_22)
-names(samp_tbsignatures) <- c("LXA4_Reactome_Lung_5", "MyD88_Reactome_Lung_15_DN", "IL_Reactome_Lung_43", "LTB4_Reactome_Lung_36", "PGE2_Reactome_Lung_14", "MRC1_Reactome_Macrophage_Lung_26", "VDR_Reactome_Lung_9", "LL37_Reactome_Lung_14", "BH3_Reactome_Lung_9", "p38MAPK_Reactome_Lung_43", "STAT3_Reactome_Lung_3", "SOCS3_Reactome_Lung_22")
+samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_5, TBsignatures$MyD88_Reactome_Lung_15_DN, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14, TBsignatures$BH3_Reactome_Lung_9, TBsignatures$p38MAPK_Reactome_Lung_43, TBsignatures$STAT3_Reactome_Lung_3, TBsignatures$SOCS3_Reactome_Lung_22, TBsignatures$NO_Reactome_Lung_3, TBsignatures$Autophagy_Reactome_Lung_2)
+names(samp_tbsignatures) <- c("LXA4_Reactome_Lung_5", "MyD88_Reactome_Lung_15_DN", "IL_Reactome_Lung_43", "LTB4_Reactome_Lung_36", "PGE2_Reactome_Lung_14", "MRC1_Reactome_Macrophage_Lung_26", "VDR_Reactome_Lung_9", "LL37_Reactome_Lung_14", "BH3_Reactome_Lung_9", "p38MAPK_Reactome_Lung_43", "STAT3_Reactome_Lung_3", "SOCS3_Reactome_Lung_22", "$NO_Reactome_Lung_3", "Autophagy_Reactome_Lung_2")
 
 # Save rda file
 save(ImmuneSignaturesReactome, file = "ImmSigReactData.rda")
