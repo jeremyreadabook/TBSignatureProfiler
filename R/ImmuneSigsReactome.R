@@ -3,14 +3,19 @@ ImmuneSignaturesReactome <- list(LXA4_Reactome_Lung_5 = c("HBGD", "ALOX5", "ALOX
                                 MyD88_Reactome_Lung_15_DN = c("FGA", "TLR6", "S100A1", "BTK", "TLR2", "TLR1", "S100A1", "S100A8", "CD14", "CD36", "HMGB1", "MYD88", "LY96", "TLR4", "TIRAP"),
                                 IL12_Reactome_Lung_43 = c("IL12B", "SERPINB2", "GSTA2", "IFNG", "MIF", "IL12A", "IL10", "IL12RB1", "LMNB1", "STAT4", "CDC4", "RPLP0", "ARF1", "P4HB", "HNRNPA2B1", "LCP1", "MSN", "SOD1", "CFL1", "HNRNPF", "HNRNPDL", "PPIA", "ANXA2", "PDCD4", "JAK1", "CAPZA1", "TALDO1", "TCP1", "HSPA9", "GSTO1", "CNN2", "PITPNA", "PSME2", "SOD2", "VAMP7", "PAK2", "AIP", "RALA", "TYK2", "JAK2", "SNRPA1", "RAP1B", "MTAP"),
                                 LTB4_Reactome_Lung_36 = c("CYP1A2",	"DPEP3",	"CYP4F22",	"CYP2C8",	"ALOX15",	"ALOX15B",	"CYP4F3",	"GPX2",	"PON3",	"CYP4B1",	"CYP2J2",	"FAAH2",	"GGT1",	"ALOX12",	"PTGR2",	"HPGD",	"PTGIS",	"ALOX5",	"PTGS2",	"PTGES",	"PLA2G4A",	"TBXAS1",	"HPGDS",	"DPEP2",	"LTC4S",	"PTGES3",	"GPX4",	"GPX1",	"MAPKAPK2",	"CBR1",	"PTGR1",	"PON2",	"LTA4H",	"ALOX5AP",	"EPHX2",	"PTGS1"),
-                                PGE2_Reactome_Lung_14 = c("PTGR2","HPGD","PTGIS","PTGS2","PTGES","TBXAS1","HPGDS","PTGES3","CBR1","PTGS1","AKR1C3","PTGDS","PTGES2","PRXL2B")
-                                MRC1_Reactome_Macrophage_Lung_26 = c("NOS2", "CTSG", "TLR2", "B2M", "UBC", "ENSG00000143947", "UBB", "ENO1", "RAB7A", "LTF", "UBA52", "PGK1", "SFPQ", "KPNB1", "CORO1A", "RAB5A", "MAPK1", "MRC1", "DUSP16", "GSK3A", "ATP6V1H", "RNF213", "TRIM27", "KPNA1", "HGS", "VPS33B")
-                                VDR_Reactome_Lung_9 = c("LRP2", "CUBN", "CYP27B1", "VDR", "LGMN", "SUMO2", "UBE2I", "PIAS4", "CYP2R1")
-                                LL37_Reactome_Lung_14 = c("ART1", "DEFA3", "BPIFB1", "CAMP", "PGLYRP1", "ELANE", "CHGA", "PRSS2", "PI3", "DEFB124", "ITLN1", "DEFB1", "CTSG", "SLC11A1")
-                                BH3_Reactome_Lung_9 = c("PMAIP1", "STAT3", "BCL2L1", "BCL2L1", "BME", "BCL2L11", "BID", "BAD", "BBC3")
-                                p38MAPK_Reactome_Lung_43 = c("SH3GL3", "NTRK1", "SH3GL2", "ADCYAP1", "ARC", "NGF", "ADCYAP1R1", "SHC3", "DNM3", "NTRK2", "FOSL1", "LYL1", "MAPK12", "RPS6KA5", "FOSB", "RPS6KA1", "MAPK13", "SRC", "EGR2", "EGR3", "SHC2", "CDK5R1", "DNM1", "DUSP4", "FOS", "RHOA", "EGR1", "AP2M1", "JUNB", "ID2", "YWHAB", "CLTC", "ID4", "GRB2", "AP2B1", "JUND", "F3", "PPP2CB", "CLTA", "RALB", "MAPKAPK2", "STAT3", "TRIB1")
-                                STAT3_Reactome_Lung_3 = c("NTRK1", "NGF", "STAT3")
-                                SOCS3_Reactome_Lung_22 = c("IL6", "OSM", "CNTFF", "CNTFR", "CRLF1", "LIFR", "LIF", "CLCF1", "SOCS3", "IL6S3", "IL6ST", "JAK1", "STAT1", "STAT3", "PTPN11", "TYK2", "JAK2", "OSMR", "IL6R", "IL11RA", "CBL", "CTF1"))
+                                PGE2_Reactome_Lung_14 = c("PTGR2","HPGD","PTGIS","PTGS2","PTGES","TBXAS1","HPGDS","PTGES3","CBR1","PTGS1","AKR1C3","PTGDS","PTGES2","PRXL2B"),
+                                MRC1_Reactome_Macrophage_Lung_26 = c("NOS2", "CTSG", "TLR2", "B2M", "UBC", "ENSG00000143947", "UBB", "ENO1", "RAB7A", "LTF", "UBA52", "PGK1", "SFPQ", "KPNB1", "CORO1A", "RAB5A", "MAPK1", "MRC1", "DUSP16", "GSK3A", "ATP6V1H", "RNF213", "TRIM27", "KPNA1", "HGS", "VPS33B"),
+                                VDR_Reactome_Lung_9 = c("LRP2", "CUBN", "CYP27B1", "VDR", "LGMN", "SUMO2", "UBE2I", "PIAS4", "CYP2R1"),
+                                LL37_Reactome_Lung_14 = c("ART1", "DEFA3", "BPIFB1", "CAMP", "PGLYRP1", "ELANE", "CHGA", "PRSS2", "PI3", "DEFB124", "ITLN1", "DEFB1", "CTSG", "SLC11A1"),
+                                BH3_Reactome_Lung_9 = c("PMAIP1", "STAT3", "BCL2L1", "BCL2L1", "BME", "BCL2L11", "BID", "BAD", "BBC3"),
+                                p38MAPK_Reactome_Lung_43 = c("SH3GL3", "NTRK1", "SH3GL2", "ADCYAP1", "ARC", "NGF", "ADCYAP1R1", "SHC3", "DNM3", "NTRK2", "FOSL1", "LYL1", "MAPK12", "RPS6KA5", "FOSB", "RPS6KA1", "MAPK13", "SRC", "EGR2", "EGR3", "SHC2", "CDK5R1", "DNM1", "DUSP4", "FOS", "RHOA", "EGR1", "AP2M1", "JUNB", "ID2", "YWHAB", "CLTC", "ID4", "GRB2", "AP2B1", "JUND", "F3", "PPP2CB", "CLTA", "RALB", "MAPKAPK2", "STAT3", "TRIB1"),
+                                STAT3_Reactome_Lung_3 = c("NTRK1", "NGF", "STAT3"),
+                                SOCS3_Reactome_Lung_22 = c("IL6", "OSM", "CNTFF", "CNTFR", "CRLF1", "LIFR", "LIF", "CLCF1", "SOCS3", "IL6S3", "IL6ST", "JAK1", "STAT1", "STAT3", "PTPN11", "TYK2", "JAK2", "OSMR", "IL6R", "IL11RA", "CBL", "CTF1"),
+                                NO_Reactome_Lung_3 = c("NOS2", "KPNB1", "KPNA1"),
+                                Autophagy_Reactome_Lung_2 = c("RAB7A", "DUSP16"),
+                                MTORC1/ULK1_Reactome_Lung_18 = c("RRAGA", "LAMTOR1", "LAMTOR4", "LAMTOR5", "RB1CC1", "LAMTOR3", "RHEB", "ATG13", "LAMTOR2", "RRAGB", "RRAGD", "MTOR", "ULK1", "MLST8", "RRAGC", "ATG101", "RPTOR", "SLC38A9"),
+                                AMP/RPTOR_Reactome_Lung_25 = cc(H1-9P, "PRKAA2", "RRAGA", "LAMTOR1", "PRKAA1", "LAMTOR4", "LAMTOR5", "RB1CC1", "LAMTOR3", "RHEB", "ATG13", "PRKAG1", "LAMTOR2", "PRKAB2", "RRAGB", "RRAGD", "MTOR", "PRKAB1", "ULK1", "PRKAG2", "MLST8", "RRAGC", "ATG101", "RPTOT", "SLC38A9"),
+                                CD3Phosphorylation_Reactome_Lung_22 = c("SH3GL3", "NTRK1", "SH3GL2", "ADCYAP1", "ARC", "NGF", "ADCYAP1R1", "SHC3", "DNM3", "NTRK2", "FOSL1", "LYL1", "MAPK12", "RPS6KA5", "FOSB", "RPS6KA1", "MAPK13", "SRC", "EGR2", "EGR3", "SHC2", "CDK5R1", "DNM1", "DUSP4", "FOS", "RHOA", "EGR1", "AP2M1", "JUNB", "ID2", "YWHAB", "CLTC", "ID4", "GRB2", "AP2B1", "JUND", "F3", "PPP2CB", "CLTA", "RALB", "MAPKAPK2", "STAT3", "TRIB1"))
 
 
 ## Add new signatures to the profiler (edited from the original new_micronutrients_code_sample.RMD)
@@ -42,6 +47,12 @@ TBsignatures$SOCS3_Reactome_Lung_22 <- c("IL6", "OSM", "CNTFF", "CNTFR", "CRLF1"
 TBsignatures$NO_Reactome_Lung_3 <- c("NOS2", "KPNB1", "KPNA1")
 
 TBsignatures$Autophagy_Reactome_Lung_2 <- c("RAB7A", "DUSP16")
+
+TBsignatures$MTORC1/ULK1_Reactome_Lung_18 <- c("RRAGA", "LAMTOR1", "LAMTOR4", "LAMTOR5", "RB1CC1", "LAMTOR3", "RHEB", "ATG13", "LAMTOR2", "RRAGB", "RRAGD", "MTOR", "ULK1", "MLST8", "RRAGC", "ATG101", "RPTOR", "SLC38A9")
+
+TBsignatures$AMP/RPTOR_Reactome_Lung_25 <- c(H1-9P, "PRKAA2", "RRAGA", "LAMTOR1", "PRKAA1", "LAMTOR4", "LAMTOR5", "RB1CC1", "LAMTOR3", "RHEB", "ATG13", "PRKAG1", "LAMTOR2", "PRKAB2", "RRAGB", "RRAGD", "MTOR", "PRKAB1", "ULK1", "PRKAG2", "MLST8", "RRAGC", "ATG101", "RPTOT", "SLC38A9")
+
+TBsignatures$CD3Phosphorylation_Reactome_Lung_22 <- c(H1-9P, "PRKAA2", "RRAGA", "LAMTOR1", "PRKAA1", "LAMTOR4", "LAMTOR5", "RB1CC1", "LAMTOR3", "RHEB", "ATG13", "PRKAG1", "LAMTOR2", "PRKAB2", "RRAGB", "RRAGD", "MTOR", "PRKAB1", "ULK1", "PRKAG2", "MLST8", "RRAGC", "ATG101", "RPTOT", "SLC38A9")
 
 #selected tb signatures
 samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_5, TBsignatures$MyD88_Reactome_Lung_15_DN, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14, TBsignatures$BH3_Reactome_Lung_9, TBsignatures$p38MAPK_Reactome_Lung_43, TBsignatures$STAT3_Reactome_Lung_3, TBsignatures$SOCS3_Reactome_Lung_22, TBsignatures$NO_Reactome_Lung_3, TBsignatures$Autophagy_Reactome_Lung_2)
