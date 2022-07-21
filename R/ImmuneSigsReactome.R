@@ -30,7 +30,15 @@ ImmuneSignaturesReactome <- list(LXA4_Reactome_Lung_5 = c("HBGD", "ALOX5", "ALOX
                                 Mitophagy_TEST = c("SRC", "PRKN", "UBB", "UBA52", "TOMM20", "TOMM7", "VDAC1", "MFN2", "SQSTM1", "TOMM70", "MAP1LC3B", "TOMM22", "CSNK2A2", "MFN1", "FUNDC1", "MTERF3", "MAP1LC3A", "ATG5", "CSNK2B", "TOMM40", "ULK1", "PGAM5", "ATG12", "PINK1", "CSNK2A1", "TOMM5"),
                                 Aggrephagy_TEST = c("TUBA4B", "TUBB1", "CTFR", "DYNC111", "PRKN", "UBE2V1", "HSP00A1", "UBC", "VIM", "ENSG00000143947", "UBB", "TUBB4B", "PARK7", "VCP", "TUBA1A", "DYNLL1", "TUBA1B", "DYNLL2", "DYNC1LI2", "DYNC112", "TUBA4A", "UBE2N", "TUBB6", "HSF1", "ENSG00000197102", "TUBB2A", "DYNC1LI1", "TUBA1C", "HDAC6", "IFT88", "PCNT", "ARL13B"),
                                 Lipophagy_TEST = c("PRKAA2", "HSPAB", "PLIN2", "PLIN3", "PRKAG1", "PRKAB2", "PRKAB1", "PRKAG2"),
-                                Pexophagy_TEST = c("ENSG00000143947", "UBB", "UBA52", "EPA51", "NBR1", "SOSTM1", "MAP1LC3B", "PEX5", "ATM", "USP30"))
+                                Pexophagy_TEST = c("ENSG00000143947", "UBB", "UBA52", "EPA51", "NBR1", "SOSTM1", "MAP1LC3B", "PEX5", "ATM", "USP30"),
+                                HostImmuneModulation_TEST =	c("TLR2", "B2M", "UBC", "ENSG00000143947", "UBB", "UBA52", "MRC1"),
+                                ResponseInhibitionMembrameRepair_TEST =	c("HGS"),
+                                PhagosomalMaturationSurpression_TEST	= c("NOS2", "ENSG00000143947", "RAB7A", "UBA52", "KPNB1", "CORO1A", "RAB5A", "ATP6V1H", "KPNA1", "HGS", "VPS33B"),
+                                PhagosomalLysomalFusionPrevention_TEST	= c("UBC", "UBB", "RAB7A", "UBA52", "CORO1A", "RAB5A", "HGS", "VPS33B"),
+                                PhagosomeAcidificationBlockage_TEST	= c("ATP6V1H"),
+                                EnergyMetabolismManipulation_TEST	= c("ENO1", "PGK1"),
+                                ApoptosisSupression_TEST	= c("CTSG", "SFPQ", "MAPK3", "MAPK1", "GSK3A", "RNF213", "TRIM27"),
+                                MTBChelotinIronAssimilation_TEST	= c("LTF"))
 
 
 
@@ -100,9 +108,25 @@ TBsignatures$Lipophagy_TEST <- c("PRKAA2", "HSPAB", "PLIN2", "PLIN3", "PRKAG1", 
                                 
 TBsignatures$Pexophagy_TEST <- c("ENSG00000143947", "UBB", "UBA52", "EPA51", "NBR1", "SOSTM1", "MAP1LC3B", "PEX5", "ATM", "USP30")
 
+TBsignatures$HostImmuneModulation_TEST <-	c("TLR2", "B2M", "UBC", "ENSG00000143947", "UBB", "UBA52", "MRC1")
+
+TBsignatures$ResponseInhibitionMembrameRepair_TEST <-	c("HGS")
+
+TBsignatures$PhagosomalMaturationSurpression_TEST	<- c("NOS2", "ENSG00000143947", "RAB7A", "UBA52", "KPNB1", "CORO1A", "RAB5A", "ATP6V1H", "KPNA1", "HGS", "VPS33B")
+
+TBsignatures$PhagosomalLysomalFusionPrevention_TEST	<- c("UBC", "UBB", "RAB7A", "UBA52", "CORO1A", "RAB5A", "HGS", "VPS33B")
+
+TBsignatures$PhagosomeAcidificationBlockage_TEST	<- c("ATP6V1H")
+
+TBsignatures$EnergyMetabolismManipulation_TEST	<- c("ENO1", "PGK1")
+
+TBsignatures$ApoptosisSupression_TEST	<- c("CTSG", "SFPQ", "MAPK3", "MAPK1", "GSK3A", "RNF213", "TRIM27")
+
+TBsignatures$MTBChelotinIronAssimilation_TEST <- c("LTF")
+
 #selected tb signatures
-samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_5, TBsignatures$MyD88_Reactome_Lung_15_DN, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14, TBsignatures$BH3_Reactome_Lung_9, TBsignatures$p38MAPK_Reactome_Lung_43, TBsignatures$STAT3_Reactome_Lung_3, TBsignatures$SOCS3_Reactome_Lung_22, TBsignatures$NO_Reactome_Lung_3, TBsignatures$Autophagy_Reactome_Lung_2, TBsignatures$MTORC1_ULK1_Reactome_Lung_18, TBsignatures$AMP_RPTOR_Reactome_Lung_25, TBsignatures$CD3Phosphorylation_Reactome_Lung_22, TBsignatures$TLRChaperoneFolding_Reactome_Lung_5, TBsignatures$TLRBindsUNC93B1_Reactome_Lung_4, TBsignatures$TLRph_Reactome_Lung_6, TBsignatures$EndosomalTLR_Reactome_Lung_12, TBsignatures$Macroautophagy_Reactome_Lung_123, TBsignatures$AlphaDefensins_Reactome_Lung_4, TBsignatures$BetaDefensins_Reactome_Lung_5, TBsignatures$Defensins_Reactome_Lung_9, TBsignatures$SelectiveAutophagy_TEST, TBsignatures$ChaperoneMediatedAutophagy_TEST, TBsignatures$Lateendosomalmicroautophagy_TEST, TBsignatures$Mitophagy_TEST, TBsignatures$Aggrephagy_TEST, TBsignatures$Lipophagy_TEST, TBsignatures$Pexophagy_TEST)
-names(samp_tbsignatures) <- c("LXA4_Reactome_Lung_5", "MyD88_Reactome_Lung_15_DN", "IL_Reactome_Lung_43", "LTB4_Reactome_Lung_36", "PGE2_Reactome_Lung_14", "MRC1_Reactome_Macrophage_Lung_26", "VDR_Reactome_Lung_9", "LL37_Reactome_Lung_14", "BH3_Reactome_Lung_9", "p38MAPK_Reactome_Lung_43", "STAT3_Reactome_Lung_3", "SOCS3_Reactome_Lung_22", "NO_Reactome_Lung_3", "Autophagy_Reactome_Lung_2", "MTORC1_ULK1_Reactome_Lung_18", "AMP_RPTOR_Reactome_Lung_25", "CD3Phosphorylation_Reactome_Lung_22", "TLRChaperoneFolding_Reactome_Lung_5", "TLRBindsUNC93B1_Reactome_Lung_4", "TLRph_Reactome_Lung_6", "EndosomalTLR_Reactome_Lung_12", "Macroautophagy_Reactome_Lung_123", "AlphaDefensins_Reactome_Lung_4", "BetaDefensins_Reactome_Lung_5", "Defensins_Reactome_Lung_9", "SelectiveAutophagy_TEST", "ChaperoneMediatedAutophagy_TEST", "Lateendosomalmicroautophagy_TEST", "Mitophagy_TEST", "Aggrephagy_TEST", "Lipophagy_TEST", "Pexophagy_TEST")
+samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_5, TBsignatures$MyD88_Reactome_Lung_15_DN, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14, TBsignatures$BH3_Reactome_Lung_9, TBsignatures$p38MAPK_Reactome_Lung_43, TBsignatures$STAT3_Reactome_Lung_3, TBsignatures$SOCS3_Reactome_Lung_22, TBsignatures$NO_Reactome_Lung_3, TBsignatures$Autophagy_Reactome_Lung_2, TBsignatures$MTORC1_ULK1_Reactome_Lung_18, TBsignatures$AMP_RPTOR_Reactome_Lung_25, TBsignatures$CD3Phosphorylation_Reactome_Lung_22, TBsignatures$TLRChaperoneFolding_Reactome_Lung_5, TBsignatures$TLRBindsUNC93B1_Reactome_Lung_4, TBsignatures$TLRph_Reactome_Lung_6, TBsignatures$EndosomalTLR_Reactome_Lung_12, TBsignatures$Macroautophagy_Reactome_Lung_123, TBsignatures$AlphaDefensins_Reactome_Lung_4, TBsignatures$BetaDefensins_Reactome_Lung_5, TBsignatures$Defensins_Reactome_Lung_9, TBsignatures$SelectiveAutophagy_TEST, TBsignatures$ChaperoneMediatedAutophagy_TEST, TBsignatures$Lateendosomalmicroautophagy_TEST, TBsignatures$Mitophagy_TEST, TBsignatures$Aggrephagy_TEST, TBsignatures$Lipophagy_TEST, TBsignatures$Pexophagy_TEST, TBsignatures$HostImmuneModulation_TEST, TBsignatures$ResponseInhibitionMembrameRepair_TEST, TBsignatures$PhagosomalMaturationSurpression_TEST, TBsignatures$PhagosomalLysomalFusionPrevention_TEST, TBsignatures$PhagosomeAcidificationBlockage_TEST, TBsignatures$EnergyMetabolismManipulation_TEST, TBsignatures$ApoptosisSupression_TEST,TBsignatures$MTBChelotinIronAssimilation_TEST)
+names(samp_tbsignatures) <- c("LXA4_Reactome_Lung_5", "MyD88_Reactome_Lung_15_DN", "IL_Reactome_Lung_43", "LTB4_Reactome_Lung_36", "PGE2_Reactome_Lung_14", "MRC1_Reactome_Macrophage_Lung_26", "VDR_Reactome_Lung_9", "LL37_Reactome_Lung_14", "BH3_Reactome_Lung_9", "p38MAPK_Reactome_Lung_43", "STAT3_Reactome_Lung_3", "SOCS3_Reactome_Lung_22", "NO_Reactome_Lung_3", "Autophagy_Reactome_Lung_2", "MTORC1_ULK1_Reactome_Lung_18", "AMP_RPTOR_Reactome_Lung_25", "CD3Phosphorylation_Reactome_Lung_22", "TLRChaperoneFolding_Reactome_Lung_5", "TLRBindsUNC93B1_Reactome_Lung_4", "TLRph_Reactome_Lung_6", "EndosomalTLR_Reactome_Lung_12", "Macroautophagy_Reactome_Lung_123", "AlphaDefensins_Reactome_Lung_4", "BetaDefensins_Reactome_Lung_5", "Defensins_Reactome_Lung_9", "SelectiveAutophagy_TEST", "ChaperoneMediatedAutophagy_TEST", "Lateendosomalmicroautophagy_TEST", "Mitophagy_TEST", "Aggrephagy_TEST", "Lipophagy_TEST", "Pexophagy_TEST", "HostImmuneModulation_TEST", "ResponseInhibitionMembrameRepair_TEST", "PhagosomalMaturationSurpression_TEST", "PhagosomalLysomalFusionPrevention_TEST", "PhagosomeAcidificationBlockage_TEST", "EnergyMetabolismManipulation_TEST", "ApoptosisSupression_TEST", "MTBChelotinIronAssimilation_TEST")
 
 # Save rda file
 save(ImmuneSignaturesReactome, file = "ImmSigReactData.rda")
