@@ -35,7 +35,63 @@ ImmuneSignaturesReactome <- list(LXA4_Reactome_Lung_6 = c("ALOX12, HBGD", "ALOX5
                                 PhagosomalMaturationSurpression_TEST	= c("NOS2", "ENSG00000143947", "RAB7A", "UBA52", "KPNB1", "CORO1A", "RAB5A", "ATP6V1H", "KPNA1", "HGS", "VPS33B"),
                                 PhagosomalLysomalFusionPrevention_TEST	= c("UBC", "UBB", "RAB7A", "UBA52", "CORO1A", "RAB5A", "HGS", "VPS33B"),
                                 EnergyMetabolismManipulation_TEST	= c("ENO1", "PGK1"),
-                                ApoptosisSupression_TEST	= c("CTSG", "SFPQ", "MAPK3", "MAPK1", "GSK3A", "RNF213", "TRIM27"))
+                                ApoptosisSupression_TEST = c("CTSG", "SFPQ", "MAPK3", "MAPK1", "GSK3A", "RNF213", "TRIM27")
+                                Apoptosis_TEST	=	c("BAD", "CFLAR", "PSMB1", "PSMC4", "BID", "VIM", "FAS", "BAK1", "DAPK2", "CDH1", "PSMA4", "DSG2", "CASP8", "PRKCQ", "ROCK1", "PSME4", "ARHGAP10", "TP63", "TP73", "PKP1", "BAX", "PSMC5", "ADD1", "DNM1L", "PPP1R13B", "DYNLL1", "PSME1", "CLSPN", "PSMD5", "DSP", "PSMD8", "MAPK1", "GZMB", "PSMC6", "PSMA3", "PSMC1", "PSMB5", "ACIN1", "PSMA6", "PSME2", "PSMA7", "E2F1", "PSMD10", "XIAP", "BMX", "STK24", "TRADD", "MAPK3", "PSMD7", "TJP1", "BMF", "GSDMD", "TNFRSF10A", "AKT2", "BBC3", "CARD8", "GSDME", "PSMA2", "MAPK8", "UNC5B", "PSMD3", "SEPTIN4", "KPNB1", "C1QBP", "PSMD11", "YWHAE", "BIRC2", "PSMD9", "LMNB1", "UNC5A", "KPNA1", "TFDP2", "PSMD14", "AKT3", "FASLG", "TJP2", "APAF1", "TNFRSF10B", "PPP3CC", "TNFSF10", "PSMF1", "PSMB2", "TRAF2", "TICAM1", "SEM1", "YWHAH", "PSMA1", "PSME3", "CASP9", "YWHAQ", "STK26", "APC", "DBNL", "NMT1", "TLR4", "PSMB7", "RIPK1", "UACA", "CASP6", "TP53", "PMAIP1", "AKT1", "PSMB6", "PSMA5", "TP53BP2", "RPS27A", "CDKN2A", "GSN", "GAS2", "APIP", "UBC", "BCL2L11", "LY96", "PSMA8", "APPL1", "PSMD4", "PSMB4", "DFFA", "LMNA", "PSMC2", "OMA1", "PSMD6", "PRKCD", "HMGB2", "CASP3", "YWHAZ", "CASP7", "PSMC3", "YWHAB", "DAPK3", "CTNNB1", "FADD", "FNTA", "STAT3", "PTK2", "DFFB", "AVEN", "YWHAG", "UBB", "CD14", "BCL2L1", "BCL2", "CYCS", "PSMD1", "PSMD2", "SFN", "PLEC", "MAGED1", "PAK2", "SATB1", "DIABLO", "PSMD13", "BCAP31", "MAPT", "DCC", "H1-2", "H1-0", "HMGB1", "DAPK1", "PSMD12", "SPTAN1", "OCLN", "TFDP1", "OPA1", "PSMB8", "PSMB10", "PPP3R1", "UBA52", "PSMB9", "DYNLL2", "PSMB3"),
+                                CapaseActivationExtrinsicApoptosisSignaling_TEST	=	c("CFLAR", "FAS", "DAPK2", "CASP8", "TRADD", "TNFRSF10A", "UNC5B", "UNC5A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "TICAM1", "CASP9", "TLR4", "RIPK1", "LY96", "APPL1", "CASP3", "DAPK3", "FADD", "CD14", "MAGED1", "DCC", "DAPK1")	
+CapaseActivationViaDeathReceptors_TEST	=	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "TICAM1", "TLR4", "RIPK1", "LY96", "FADD", "CD14")	
+DimerzationofProcaspase8_TEST	=	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")	
+FASDimerzationProcaspase8_TEST	=	c("CFLAR", "FAS", "CASP8", "FASLG", "FADD")	
+TRAILDimerzationProcaspase8_TEST	=	c("CFLAR", "CASP8", "TNFRSF10A", "TNFRSF10B", "TNFSF10", "FADD")	
+TNFDimerzationProcaspase8_TEST	=	c("CFLAR", "CASP8", "TRADD", "TRAF2", "RIPK1", "FADD")	
+Capspase8ProcessingDISC_TEST	=	c("FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")	
+Capspase8ProcessingTLR4Complex_TEST	=	c("CASP8", "NLRC4", "TICAM1", "TLR4", "RIPK1", "LY96", "FADD", "CD14")	
+CLIPRegulation	=	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")	
+FLIPLHeterodimerTNF_TEST	=	c("CFLAR", "CASP8", "TRADD", "TRAF2", "RIPK1", "FADD")	
+FLIPLHeterodimerTRAIL_TEST	=	c("CFLAR", "CASP8", "TNFRSF10A", "TNFRSF10B", "TNFSF10", "FADD")	
+FLIPLHeterodimerFasLCD95_TEST	=	c("CFLAR", "FAS", "CASP8", "FASLG", "FADD")	
+FLIPLCaspase8DISCProcessing_TEST	=	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")	
+CaspaseActivationDependenceReceptorsNoLigand_TEST	=	c("DAPK2", "UNC5B", "UNC5A", "CASP9", "APPL1", "CASP3", "DAPK3", "MAGED1", "DCC", "DAPK1")	
+CaspaseCleavegeDCC_TEST	=	c("DCC", "CASP3")	
+DCCDIP13alpha_TEST	=	c("DCC", "APPL1")	
+Caspase9bindsDCCDIP13alpha_TEST	=	c("DCC", "CASP3", "APPl1")	
+Caspase3Activation_TEST	=	c("CASP9", "APPL1", "CASP3", "DCC", "H1-9P")	
+CaspaseCleavegeUNC5B_TEST	=	c("UNC5B", "CASP3")	
+DAPKBindsUNC5B_TEST	=	c("DAPK2", "UNC5B", "DAPK1", "DAPK3")	
+CaspaseUNC5A_TEST	=	c("UNC5A", "CASP3")	
+UNC5ANRAGE_TEST	=	c("UNC5A", "MAGED1")	
+IntrinsicApoptosis_TEST	=	c("BAD", "BID", "BAK1", "CASP8", "TP63", "TP73", "BAX", "PPP1R13B", "DYNLL1", "MAPK1", "GZMB", "E2F1", "XIAP", "MAPK3", "BMF", "GSDMD", "AKT2", "BBC3", "CARD8", "GSDME", "MAPK8", "SEPTIN4", "C1QBP", "YWHAE", "TFDP2", "AKT3", "APAF1", "PPP3CC", "YWHAH", "CASP9", "YWHAQ", "NMT1", "UACA", "TP53", "PMAIP1", "AKT1", "TP53BP2", "CDKN2A", "APIP", "BCL2L11", "CASP3", "YWHAZ", "CASP7", "YWHAB", "STAT3", "AVEN", "YWHAG", "BCL2L1", "BCL2", "CYCS", "SFN", "DIABLO", "TFDP1", "PPP3R1", "DYNLL2")	
+BIDMitochondria_TEST	=	c("BID", "CASP8", "GZMB", "NMT1")	
+Caspase8BID_TEST	=	c("CASP8", "BID")	
+GranzymeBBID_TEST	=	c("GZMB", "BID")	
+tBIDMyristoylationNMT1_TEST	=	c("NMT1", "BID")	
+BH3_TEST	=	c("BAD", "BID", "TP63", "TP73", "PPP1R13B", "DYNLL1", "E2F1", "BMF", "AKT2", "BBC3", "MAPK8", "YWHAE", "TFDP2", "AKT3", "PPP3CC", "YWHAH", "YWHAQ", "TP53", "PMAIP1", "AKT1", "TP53BP2", "BCL2L11", "YWHAZ", "YWHAB", "YWHAG", "BCL2", "SFN", "TFDP1", "PPP3R1", "DYNLL2")	
+BAD_TEST	=	c("BAD", "BID", "AKT2", "YWHAE", "AKT3", "PPP3CC", "YWHAH", "YWHAQ", "AKT1", "YWHAZ", "YWHAB", "YWHAG", "BCL2", "SFN", "PPP3R1")	,
+AKTBAD_TEST	=	c("BAD", "AKT2", "AKT3", "AKT1", "H1-9P")	,
+SequestrationBAD_TEST	=	c("BAD", "YWHAE", "YWHAH", "YWHAQ", "YWHAZ", "YWHAB", "YWHAG", "SFN")	,
+BADCalcineurin_TEST	=	c("BAD", "YWHAE", "PPP3CC", "YWHAH", "YWHAQ", "YWHAZ", "YWHAB", "YWHAG", "SFN", "PPP3R1")	,
+BADDisplacingtBID_TEST	=	c("BCL2", "BID", "BAD")	,
+NOXA_TEST	=	c("E2F1", "TFDP2", "TP53", "PMAIP1", "TFDP1")	,
+TP53PMAIP1NOXA_TEST	=	c("PMAIP1", "TP53")	,
+E2F1PMAIP1NOXA_TEST	=	c("E2F1", "TFDP2", "PMAIP1", "TFDP1")	,
+PUMA_TEST	=	c("TP63", "TP73", "PPP1R13B", "E2F1", "BBC3", "TFDP2", "TP53", "TP53BP2", "TFDP1")	,
+TP53BBC3_TEST	=	c("TP63", "TP73", "PPP1R13B", "BBC3", "TP53", "TP53BP2")	,
+E2F1BBC3_TEST	=	c("E2F1", "BBC3", "TFDP2", "TFDP1")	,
+BIM_TEST	=	c("DYNLL1", "MAPK8", "BCL2L11")	,
+BIMJNK_TEST	=	c("DYNLL1", "MAPK8", "BCL2L11", "H1-9P")	,
+BMF_TEST	=	c("DYNLL2", "BMF", "MAPK8")	,
+BH3BCL2_TEST	=	c("BAD", "BID", "BMF", "BBC3", "PMAIP1", "BCL2L11", "STAT3", "BCL2L1", "BCL2")	,
+BCL2BCL2L1_TEST	=	c(STAT3, "BCL2L1", "BCL2")	,
+BH3InactiveBCL2_TEST	=	c("BAD", "BMF", "BBC3", "PMAIP1", "BCL2L11", "BCL2")	,
+tBIDBCL_TEST	=	c("BCL2", "BID")	,
+BH3BCLXL_TEST	=	c("BAD", "BID", "BBC3", "PMAIP1", "BCL2L11", "BCL2L1")	,
+BAX_TEST	=	c("BAX", "BID")	,
+tBIDinactiveBAK_TEST	=	c("BAK", "BID")	,
+tBIDBAK_TEST	=	c("BAK1", "BID")	,
+Apoptopic_TEST	=	c("BAK1", "BAX", "MAPK1", "XIAP", "MAPK3", "GSDMD", "CARD8", "GSDME", "SEPTIN4", "C1QBP", "APAF1", "CASP9", "UACA", "CDKN2A", "APIP", "CASP3", "CASP7", "AVEN", "CYCS", "DIABLO")	,
+ReleaseofApoptopic_TEST	=	c("BAK1", "BAX", "GSDMD", "GSDME", "SEPTIN4", "CYCS", "DIABLO")	,
+ReleaseofCytochrome_TEST	=	c("BAK1", "BAX", "GSDMD", "GSDME", "CYCS")	,
+ReleaseofSMAC_TEST	=	c("DIABLO","BAX", "BAK1")	,
+Cytochrome_TEST	=	c("MAPK1", "XIAP", "MAPK3", "CARD8", "APAF1", "CASP9", "UACA", "APIP", "CASP3", "CASP7", "AVEN", "CYCS", "DIABLO"))
 
 
 
@@ -115,9 +171,68 @@ TBsignatures$EnergyMetabolismManipulation_TEST	<- c("ENO1", "PGK1")
 
 TBsignatures$ApoptosisSupression_TEST	<- c("CTSG", "SFPQ", "MAPK3", "MAPK1", "GSK3A", "RNF213", "TRIM27")
 
+TBsignatures$Apoptosis_TEST	<-	c("BAD", "CFLAR", "PSMB1", "PSMC4", "BID", "VIM", "FAS", "BAK1", "DAPK2", "CDH1", "PSMA4", "DSG2", "CASP8", "PRKCQ", "ROCK1", "PSME4", "ARHGAP10", "TP63", "TP73", "PKP1", "BAX", "PSMC5", "ADD1", "DNM1L", "PPP1R13B", "DYNLL1", "PSME1", "CLSPN", "PSMD5", "DSP", "PSMD8", "MAPK1", "GZMB", "PSMC6", "PSMA3", "PSMC1", "PSMB5", "ACIN1", "PSMA6", "PSME2", "PSMA7", "E2F1", "PSMD10", "XIAP", "BMX", "STK24", "TRADD", "MAPK3", "PSMD7", "TJP1", "BMF", "GSDMD", "TNFRSF10A", "AKT2", "BBC3", "CARD8", "GSDME", "PSMA2", "MAPK8", "UNC5B", "PSMD3", "SEPTIN4", "KPNB1", "C1QBP", "PSMD11", "YWHAE", "BIRC2", "PSMD9", "LMNB1", "UNC5A", "KPNA1", "TFDP2", "PSMD14", "AKT3", "FASLG", "TJP2", "APAF1", "TNFRSF10B", "PPP3CC", "TNFSF10", "PSMF1", "PSMB2", "TRAF2", "TICAM1", "SEM1", "YWHAH", "PSMA1", "PSME3", "CASP9", "YWHAQ", "STK26", "APC", "DBNL", "NMT1", "TLR4", "PSMB7", "RIPK1", "UACA", "CASP6", "TP53", "PMAIP1", "AKT1", "PSMB6", "PSMA5", "TP53BP2", "RPS27A", "CDKN2A", "GSN", "GAS2", "APIP", "UBC", "BCL2L11", "LY96", "PSMA8", "APPL1", "PSMD4", "PSMB4", "DFFA", "LMNA", "PSMC2", "OMA1", "PSMD6", "PRKCD", "HMGB2", "CASP3", "YWHAZ", "CASP7", "PSMC3", "YWHAB", "DAPK3", "CTNNB1", "FADD", "FNTA", "STAT3", "PTK2", "DFFB", "AVEN", "YWHAG", "UBB", "CD14", "BCL2L1", "BCL2", "CYCS", "PSMD1", "PSMD2", "SFN", "PLEC", "MAGED1", "PAK2", "SATB1", "DIABLO", "PSMD13", "BCAP31", "MAPT", "DCC", "H1-2", "H1-0", "HMGB1", "DAPK1", "PSMD12", "SPTAN1", "OCLN", "TFDP1", "OPA1", "PSMB8", "PSMB10", "PPP3R1", "UBA52", "PSMB9", "DYNLL2", "PSMB3")
+TBsignatures$CapaseActivationExtrinsicApoptosisSignaling_TEST	<-	c("CFLAR", "FAS", "DAPK2", "CASP8", "TRADD", "TNFRSF10A", "UNC5B", "UNC5A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "TICAM1", "CASP9", "TLR4", "RIPK1", "LY96", "APPL1", "CASP3", "DAPK3", "FADD", "CD14", "MAGED1", "DCC", "DAPK1")
+TBsignatures$CapaseActivationViaDeathReceptors_TEST	<-	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "TICAM1", "TLR4", "RIPK1", "LY96", "FADD", "CD14")
+TBsignatures$DimerzationofProcaspase8_TEST	<-	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")
+TBsignatures$FASDimerzationProcaspase8_TEST	<-	c("CFLAR", "FAS", "CASP8", "FASLG", "FADD")
+TBsignatures$TRAILDimerzationProcaspase8_TEST	<-	c("CFLAR", "CASP8", "TNFRSF10A", "TNFRSF10B", "TNFSF10", "FADD")
+TBsignatures$TNFDimerzationProcaspase8_TEST	<-	c("CFLAR", "CASP8", "TRADD", "TRAF2", "RIPK1", "FADD")
+TBsignatures$Capspase8ProcessingDISC_TEST	<-	c("FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")
+TBsignatures$Capspase8ProcessingTLR4Complex_TEST	<-	c("CASP8", "NLRC4", "TICAM1", "TLR4", "RIPK1", "LY96", "FADD", "CD14")
+TBsignatures$CLIPRegulation	<-	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")
+TBsignatures$FLIPLHeterodimerTNF_TEST	<-	c("CFLAR", "CASP8", "TRADD", "TRAF2", "RIPK1", "FADD")
+TBsignatures$FLIPLHeterodimerTRAIL_TEST	<-	c("CFLAR", "CASP8", "TNFRSF10A", "TNFRSF10B", "TNFSF10", "FADD")
+TBsignatures$FLIPLHeterodimerFasLCD95_TEST	<-	c("CFLAR", "FAS", "CASP8", "FASLG", "FADD")
+TBsignatures$FLIPLCaspase8DISCProcessing_TEST	<-	c("CFLAR", "FAS", "CASP8", "TRADD", "TNFRSF10A", "FASLG", "TNFRSF10B", "TNFSF10", "TRAF2", "RIPK1", "FADD")
+TBsignatures$CaspaseActivationDependenceReceptorsNoLigand_TEST	<-	c("DAPK2", "UNC5B", "UNC5A", "CASP9", "APPL1", "CASP3", "DAPK3", "MAGED1", "DCC", "DAPK1")
+TBsignatures$CaspaseCleavegeDCC_TEST	<-	c("DCC", "CASP3")
+TBsignatures$DCCDIP13alpha_TEST	<-	c("DCC", "APPL1")
+TBsignatures$Caspase9bindsDCCDIP13alpha_TEST	<-	c("DCC", "CASP3", "APPl1")
+TBsignatures$Caspase3Activation_TEST	<-	c("CASP9", "APPL1", "CASP3", "DCC", "H1-9P")
+TBsignatures$CaspaseCleavegeUNC5B_TEST	<-	c("UNC5B", "CASP3")
+TBsignatures$DAPKBindsUNC5B_TEST	<-	c("DAPK2", "UNC5B", "DAPK1", "DAPK3")
+TBsignatures$CaspaseUNC5A_TEST	<-	c("UNC5A", "CASP3")
+TBsignatures$UNC5ANRAGE_TEST	<-	c("UNC5A", "MAGED1")
+TBsignatures$IntrinsicApoptosis_TEST	<-	c("BAD", "BID", "BAK1", "CASP8", "TP63", "TP73", "BAX", "PPP1R13B", "DYNLL1", "MAPK1", "GZMB", "E2F1", "XIAP", "MAPK3", "BMF", "GSDMD", "AKT2", "BBC3", "CARD8", "GSDME", "MAPK8", "SEPTIN4", "C1QBP", "YWHAE", "TFDP2", "AKT3", "APAF1", "PPP3CC", "YWHAH", "CASP9", "YWHAQ", "NMT1", "UACA", "TP53", "PMAIP1", "AKT1", "TP53BP2", "CDKN2A", "APIP", "BCL2L11", "CASP3", "YWHAZ", "CASP7", "YWHAB", "STAT3", "AVEN", "YWHAG", "BCL2L1", "BCL2", "CYCS", "SFN", "DIABLO", "TFDP1", "PPP3R1", "DYNLL2")
+TBsignatures$BIDMitochondria_TEST	<-	c("BID", "CASP8", "GZMB", "NMT1")
+TBsignatures$Caspase8BID_TEST	<-	c("CASP8", "BID")
+TBsignatures$GranzymeBBID_TEST	<-	c("GZMB", "BID")
+TBsignatures$tBIDMyristoylationNMT1_TEST	<-	c("NMT1", "BID")
+TBsignatures$BH3_TEST	<-	c("BAD", "BID", "TP63", "TP73", "PPP1R13B", "DYNLL1", "E2F1", "BMF", "AKT2", "BBC3", "MAPK8", "YWHAE", "TFDP2", "AKT3", "PPP3CC", "YWHAH", "YWHAQ", "TP53", "PMAIP1", "AKT1", "TP53BP2", "BCL2L11", "YWHAZ", "YWHAB", "YWHAG", "BCL2", "SFN", "TFDP1", "PPP3R1", "DYNLL2")
+TBsignatures$BAD_TEST	<-	c("BAD", "BID", "AKT2", "YWHAE", "AKT3", "PPP3CC", "YWHAH", "YWHAQ", "AKT1", "YWHAZ", "YWHAB", "YWHAG", "BCL2", "SFN", "PPP3R1")
+TBsignatures$AKTBAD_TEST	<-	c("BAD", "AKT2", "AKT3", "AKT1", "H1-9P")
+TBsignatures$SequestrationBAD_TEST	<-	c("BAD", "YWHAE", "YWHAH", "YWHAQ", "YWHAZ", "YWHAB", "YWHAG", "SFN")
+TBsignatures$BADCalcineurin_TEST	<-	c("BAD", "YWHAE", "PPP3CC", "YWHAH", "YWHAQ", "YWHAZ", "YWHAB", "YWHAG", "SFN", "PPP3R1")
+TBsignatures$BADDisplacingtBID_TEST	<-	c("BCL2", "BID", "BAD")
+TBsignatures$NOXA_TEST	<-	c("E2F1", "TFDP2", "TP53", "PMAIP1", "TFDP1")
+TBsignatures$TP53PMAIP1NOXA_TEST	<-	c("PMAIP1", "TP53")
+TBsignatures$E2F1PMAIP1NOXA_TEST	<-	c("E2F1", "TFDP2", "PMAIP1", "TFDP1")
+TBsignatures$PUMA_TEST	<-	c("TP63", "TP73", "PPP1R13B", "E2F1", "BBC3", "TFDP2", "TP53", "TP53BP2", "TFDP1")
+TBsignatures$TP53BBC3_TEST	<-	c("TP63", "TP73", "PPP1R13B", "BBC3", "TP53", "TP53BP2")
+TBsignatures$E2F1BBC3_TEST	<-	c("E2F1", "BBC3", "TFDP2", "TFDP1")
+TBsignatures$BIM_TEST	<-	c("DYNLL1", "MAPK8", "BCL2L11")
+TBsignatures$BIMJNK_TEST	<-	c("DYNLL1", "MAPK8", "BCL2L11", "H1-9P")
+TBsignatures$BMF_TEST	<-	c("DYNLL2", "BMF", "MAPK8")
+TBsignatures$BH3BCL2_TEST	<-	c("BAD", "BID", "BMF", "BBC3", "PMAIP1", "BCL2L11", "STAT3", "BCL2L1", "BCL2")
+TBsignatures$BCL2BCL2L1_TEST	<-	c(STAT3, "BCL2L1", "BCL2")
+TBsignatures$BH3InactiveBCL2_TEST	<-	c("BAD", "BMF", "BBC3", "PMAIP1", "BCL2L11", "BCL2")
+TBsignatures$tBIDBCL_TEST	<-	c("BCL2", "BID")
+TBsignatures$BH3BCLXL_TEST	<-	c("BAD", "BID", "BBC3", "PMAIP1", "BCL2L11", "BCL2L1")
+TBsignatures$BAX_TEST	<-	c("BAX", "BID")
+TBsignatures$tBIDinactiveBAK_TEST	<-	c("BAK", "BID")
+TBsignatures$tBIDBAK_TEST	<-	c("BAK1", "BID")
+TBsignatures$Apoptopic_TEST	<-	c("BAK1", "BAX", "MAPK1", "XIAP", "MAPK3", "GSDMD", "CARD8", "GSDME", "SEPTIN4", "C1QBP", "APAF1", "CASP9", "UACA", "CDKN2A", "APIP", "CASP3", "CASP7", "AVEN", "CYCS", "DIABLO")
+TBsignatures$ReleaseofApoptopic_TEST	<-	c("BAK1", "BAX", "GSDMD", "GSDME", "SEPTIN4", "CYCS", "DIABLO")
+TBsignatures$ReleaseofCytochrome_TEST	<-	c("BAK1", "BAX", "GSDMD", "GSDME", "CYCS")
+TBsignatures$ReleaseofSMAC_TEST	<-	c("DIABLO","BAX", "BAK1")
+TBsignatures$Cytochrome_TEST	<-	c("MAPK1", "XIAP", "MAPK3", "CARD8", "APAF1", "CASP9", "UACA", "APIP", "CASP3", "CASP7", "AVEN", "CYCS", "DIABLO")
+
+
+
 #selected tb signatures
-samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_6, TBsignatures$MyD88_Reactome_Lung_99, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14, TBsignatures$BH3_Reactome_Lung_9, TBsignatures$p38MAPK_Reactome_Lung_43, TBsignatures$STAT3_Reactome_Lung_3, TBsignatures$SOCS3_Reactome_Lung_22, TBsignatures$NO_Reactome_Lung_3, TBsignatures$Autophagy_Reactome_Lung_2, TBsignatures$MTORC1_ULK1_Reactome_Lung_18, TBsignatures$AMP_RPTOR_Reactome_Lung_25, TBsignatures$CD3Phosphorylation_Reactome_Lung_22, TBsignatures$TLRChaperoneFolding_Reactome_Lung_5, TBsignatures$TLRBindsUNC93B1_Reactome_Lung_4, TBsignatures$TLRph_Reactome_Lung_6, TBsignatures$EndosomalTLR_Reactome_Lung_12, TBsignatures$Macroautophagy_Reactome_Lung_123, TBsignatures$AlphaDefensins_Reactome_Lung_4, TBsignatures$BetaDefensins_Reactome_Lung_5, TBsignatures$Defensins_Reactome_Lung_9, TBsignatures$SelectiveAutophagy_TEST, TBsignatures$ChaperoneMediatedAutophagy_TEST, TBsignatures$Lateendosomalmicroautophagy_TEST, TBsignatures$Mitophagy_TEST, TBsignatures$Aggrephagy_TEST, TBsignatures$Lipophagy_TEST, TBsignatures$Pexophagy_TEST, TBsignatures$HostImmuneModulation_TEST, TBsignatures$PhagosomalMaturationSurpression_TEST, TBsignatures$PhagosomalLysomalFusionPrevention_TEST, TBsignatures$EnergyMetabolismManipulation_TEST, TBsignatures$ApoptosisSupression_TEST)
-names(samp_tbsignatures) <- c("LXA4_Reactome_Lung_6", "MyD88_Reactome_Lung_99", "IL_Reactome_Lung_43", "LTB4_Reactome_Lung_36", "PGE2_Reactome_Lung_14", "MRC1_Reactome_Macrophage_Lung_26", "VDR_Reactome_Lung_9", "LL37_Reactome_Lung_14", "BH3_Reactome_Lung_9", "p38MAPK_Reactome_Lung_43", "STAT3_Reactome_Lung_3", "SOCS3_Reactome_Lung_22", "NO_Reactome_Lung_3", "Autophagy_Reactome_Lung_2", "MTORC1_ULK1_Reactome_Lung_18", "AMP_RPTOR_Reactome_Lung_25", "CD3Phosphorylation_Reactome_Lung_22", "TLRChaperoneFolding_Reactome_Lung_5", "TLRBindsUNC93B1_Reactome_Lung_4", "TLRph_Reactome_Lung_6", "EndosomalTLR_Reactome_Lung_12", "Macroautophagy_Reactome_Lung_123", "AlphaDefensins_Reactome_Lung_4", "BetaDefensins_Reactome_Lung_5", "Defensins_Reactome_Lung_9", "SelectiveAutophagy_TEST", "ChaperoneMediatedAutophagy_TEST", "Lateendosomalmicroautophagy_TEST", "Mitophagy_TEST", "Aggrephagy_TEST", "Lipophagy_TEST", "Pexophagy_TEST", "HostImmuneModulation_TEST", "PhagosomalMaturationSurpression_TEST", "PhagosomalLysomalFusionPrevention_TEST", "EnergyMetabolismManipulation_TEST", "ApoptosisSupression_TEST")
+samp_tbsignatures <- list(TBsignatures$LXA4_Reactome_Lung_6, TBsignatures$MyD88_Reactome_Lung_99, TBsignatures$IL_Reactome_Lung_43, TBsignatures$LTB4_Reactome_Lung_36, TBsignatures$PGE2_Reactome_Lung_14, TBsignatures$MRC1_Reactome_Macrophage_Lung_26, TBsignatures$VDR_Reactome_Lung_9, TBsignatures$LL37_Reactome_Lung_14, TBsignatures$BH3_Reactome_Lung_9, TBsignatures$p38MAPK_Reactome_Lung_43, TBsignatures$STAT3_Reactome_Lung_3, TBsignatures$SOCS3_Reactome_Lung_22, TBsignatures$NO_Reactome_Lung_3, TBsignatures$Autophagy_Reactome_Lung_2, TBsignatures$MTORC1_ULK1_Reactome_Lung_18, TBsignatures$AMP_RPTOR_Reactome_Lung_25, TBsignatures$CD3Phosphorylation_Reactome_Lung_22, TBsignatures$TLRChaperoneFolding_Reactome_Lung_5, TBsignatures$TLRBindsUNC93B1_Reactome_Lung_4, TBsignatures$TLRph_Reactome_Lung_6, TBsignatures$EndosomalTLR_Reactome_Lung_12, TBsignatures$Macroautophagy_Reactome_Lung_123, TBsignatures$AlphaDefensins_Reactome_Lung_4, TBsignatures$BetaDefensins_Reactome_Lung_5, TBsignatures$Defensins_Reactome_Lung_9, TBsignatures$SelectiveAutophagy_TEST, TBsignatures$ChaperoneMediatedAutophagy_TEST, TBsignatures$Lateendosomalmicroautophagy_TEST, TBsignatures$Mitophagy_TEST, TBsignatures$Aggrephagy_TEST, TBsignatures$Lipophagy_TEST, TBsignatures$Pexophagy_TEST, TBsignatures$HostImmuneModulation_TEST, TBsignatures$PhagosomalMaturationSurpression_TEST, TBsignatures$PhagosomalLysomalFusionPrevention_TEST, TBsignatures$EnergyMetabolismManipulation_TEST, TBsignatures$ApoptosisSupression_TEST, TBsignatures$Apoptosis_TEST, TBsignatures$CapaseActivationExtrinsicApoptosisSignaling_TEST, TBsignatures$CapaseActivationViaDeathReceptors_TEST, TBsignatures$DimerzationofProcaspase8_TEST, TBsignatures$FASDimerzationProcaspase8_TEST, TBsignatures$TRAILDimerzationProcaspase8_TEST, TBsignatures$TNFDimerzationProcaspase8_TEST, TBsignatures$Capspase8ProcessingDISC_TEST, TBsignatures$Capspase8ProcessingTLR4Complex_TEST, TBsignatures$CLIPRegulation, TBsignatures$FLIPLHeterodimerTNF_TEST, TBsignatures$FLIPLHeterodimerTRAIL_TEST, TBsignatures$FLIPLHeterodimerFasLCD95_TEST, TBsignatures$FLIPLCaspase8DISCProcessing_TEST, TBsignatures$CaspaseActivationDependenceReceptorsNoLigand_TEST, TBsignatures$CaspaseCleavegeDCC_TEST, TBsignatures$DCCDIP13alpha_TEST, TBsignatures$Caspase9bindsDCCDIP13alpha_TEST, TBsignatures$Caspase3Activation_TEST, TBsignatures$CaspaseCleavegeUNC5B_TEST, TBsignatures$DAPKBindsUNC5B_TEST, TBsignatures$CaspaseUNC5A_TEST, TBsignatures$UNC5ANRAGE_TEST, TBsignatures$IntrinsicApoptosis_TEST, TBsignatures$BIDMitochondria_TEST, TBsignatures$Caspase8BID_TEST, TBsignatures$GranzymeBBID_TEST, TBsignatures$tBIDMyristoylationNMT1_TEST, TBsignatures$BH3_TEST, TBsignatures$BAD_TEST, TBsignatures$AKTBAD_TEST, TBsignatures$SequestrationBAD_TEST, TBsignatures$BADCalcineurin_TEST, TBsignatures$BADDisplacingtBID_TEST, TBsignatures$NOXA_TEST, TBsignatures$TP53PMAIP1NOXA_TEST, TBsignatures$E2F1PMAIP1NOXA_TEST, TBsignatures$PUMA_TEST, TBsignatures$TP53BBC3_TEST, TBsignatures$E2F1BBC3_TEST, TBsignatures$BIM_TEST, TBsignatures$BIMJNK_TEST, TBsignatures$BMF_TEST, TBsignatures$BH3BCL2_TEST, TBsignatures$BCL2BCL2L1_TEST, TBsignatures$BH3InactiveBCL2_TEST, TBsignatures$tBIDBCL_TEST, TBsignatures$BH3BCLXL_TEST, TBsignatures$BAX_TEST, TBsignatures$tBIDinactiveBAK_TEST, TBsignatures$tBIDBAK_TEST, TBsignatures$Apoptopic_TEST, TBsignatures$ReleaseofApoptopic_TEST, TBsignatures$ReleaseofCytochrome_TEST, TBsignatures$ReleaseofSMAC_TEST, TBsignatures$Cytochrome_TEST)
+names(samp_tbsignatures) <- c("LXA4_Reactome_Lung_6", "MyD88_Reactome_Lung_99", "IL_Reactome_Lung_43", "LTB4_Reactome_Lung_36", "PGE2_Reactome_Lung_14", "MRC1_Reactome_Macrophage_Lung_26", "VDR_Reactome_Lung_9", "LL37_Reactome_Lung_14", "BH3_Reactome_Lung_9", "p38MAPK_Reactome_Lung_43", "STAT3_Reactome_Lung_3", "SOCS3_Reactome_Lung_22", "NO_Reactome_Lung_3", "Autophagy_Reactome_Lung_2", "MTORC1_ULK1_Reactome_Lung_18", "AMP_RPTOR_Reactome_Lung_25", "CD3Phosphorylation_Reactome_Lung_22", "TLRChaperoneFolding_Reactome_Lung_5", "TLRBindsUNC93B1_Reactome_Lung_4", "TLRph_Reactome_Lung_6", "EndosomalTLR_Reactome_Lung_12", "Macroautophagy_Reactome_Lung_123", "AlphaDefensins_Reactome_Lung_4", "BetaDefensins_Reactome_Lung_5", "Defensins_Reactome_Lung_9", "SelectiveAutophagy_TEST", "ChaperoneMediatedAutophagy_TEST", "Lateendosomalmicroautophagy_TEST", "Mitophagy_TEST", "Aggrephagy_TEST", "Lipophagy_TEST", "Pexophagy_TEST", "HostImmuneModulation_TEST", "PhagosomalMaturationSurpression_TEST", "PhagosomalLysomalFusionPrevention_TEST", "EnergyMetabolismManipulation_TEST", "ApoptosisSupression_TEST", "Apoptosis_TEST", "CapaseActivationExtrinsicApoptosisSignaling_TEST", "CapaseActivationViaDeathReceptors_TEST", "DimerzationofProcaspase8_TEST", "FASDimerzationProcaspase8_TEST", "TRAILDimerzationProcaspase8_TEST", "TNFDimerzationProcaspase8_TEST", "Capspase8ProcessingDISC_TEST", "Capspase8ProcessingTLR4Complex_TEST", "CLIPRegulation", "FLIPLHeterodimerTNF_TEST", "FLIPLHeterodimerTRAIL_TEST", "FLIPLHeterodimerFasLCD95_TEST", "FLIPLCaspase8DISCProcessing_TEST", "CaspaseActivationDependenceReceptorsNoLigand_TEST", "CaspaseCleavegeDCC_TEST", "DCCDIP13alpha_TEST", "Caspase9bindsDCCDIP13alpha_TEST", "Caspase3Activation_TEST", "CaspaseCleavegeUNC5B_TEST", "DAPKBindsUNC5B_TEST", "CaspaseUNC5A_TEST", "UNC5ANRAGE_TEST", "IntrinsicApoptosis_TEST", "BIDMitochondria_TEST", "Caspase8BID_TEST", "GranzymeBBID_TEST", "tBIDMyristoylationNMT1_TEST", "BH3_TEST", "BAD_TEST", "AKTBAD_TEST", "SequestrationBAD_TEST", "BADCalcineurin_TEST", "BADDisplacingtBID_TEST", "NOXA_TEST", "TP53PMAIP1NOXA_TEST", "E2F1PMAIP1NOXA_TEST", "PUMA_TEST", "TP53BBC3_TEST", "E2F1BBC3_TEST", "BIM_TEST", "BIMJNK_TEST", "BMF_TEST", "BH3BCL2_TEST", "BCL2BCL2L1_TEST", "BH3InactiveBCL2_TEST", "tBIDBCL_TEST", "BH3BCLXL_TEST", "BAX_TEST", "tBIDinactiveBAK_TEST", "tBIDBAK_TEST", "Apoptopic_TEST", "ReleaseofApoptopic_TEST", "ReleaseofCytochrome_TEST", "ReleaseofSMAC_TEST", "Cytochrome_TEST")
 
 # Save rda file
 save(ImmuneSignaturesReactome, file = "ImmSigReactData.rda")
