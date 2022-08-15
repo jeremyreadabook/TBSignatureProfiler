@@ -16,7 +16,7 @@ ImmuneSignaturesReactome <- list(LXA4_Reactome_Lung_5 = c("HBGD", "ALOX5", "ALOX
                                 MTORC1_ULK1_Reactome_Lung_18 = c("RRAGA", "LAMTOR1", "LAMTOR4", "LAMTOR5", "RB1CC1", "LAMTOR3", "RHEB", "ATG13", "LAMTOR2", "RRAGB", "RRAGD", "MTOR", "ULK1", "MLST8", "RRAGC", "ATG101", "RPTOR", "SLC38A9"),
                                 AMP_RPTOR_Reactome_Lung_25 = c("H1-9P", "PRKAA2", "RRAGA", "LAMTOR1", "PRKAA1", "LAMTOR4", "LAMTOR5", "RB1CC1", "LAMTOR3", "RHEB", "ATG13", "PRKAG1", "LAMTOR2", "PRKAB2", "RRAGB", "RRAGD", "MTOR", "PRKAB1", "ULK1", "PRKAG2", "MLST8", "RRAGC", "ATG101", "RPTOT", "SLC38A9"),
                                 CD3Phosphorylation_Reactome_Lung_22 = c("SH3GL3", "NTRK1", "SH3GL2", "ADCYAP1", "ARC", "NGF", "ADCYAP1R1", "SHC3", "DNM3", "NTRK2", "FOSL1", "LYL1", "MAPK12", "RPS6KA5", "FOSB", "RPS6KA1", "MAPK13", "SRC", "EGR2", "EGR3", "SHC2", "CDK5R1", "DNM1", "DUSP4", "FOS", "RHOA", "EGR1", "AP2M1", "JUNB", "ID2", "YWHAB", "CLTC", "ID4", "GRB2", "AP2B1", "JUND", "F3", "PPP2CB", "CLTA", "RALB", "MAPKAPK2", "STAT3", "TRIB1"),
-                                TLRChaperoneFolding_Reactome_Lung_5 = c("H19P", "TLR8", "TLR7", "HSP90B1", "CNPY3"),
+                                TLRChaperoneFolding_Reactome_Lung_5 = c("H1-9P", "TLR8", "TLR7", "HSP90B1", "CNPY3"),
                                 TLRBindsUNC93B1_Reactome_Lung_4 = c("TLR8", "TLR7", "TLR3", "UNC93B1"),
                                 TLRph_Reactome_Lung_6 = c("TLR7", "CTSB", "CTSL", "CTSK", "CTSS", "LGMN"),
                                 EndosomalTLR_Reactome_Lung_12 = c("CTSV", "TLR8", "TLR7", "TLR3", "HSP90B1", "CTSB", "CTSL", "CTSK", "CTSS", "LGMN", "UNC93B1"),
@@ -62,7 +62,7 @@ TBsignatures$AMP_RPTOR_Reactome_Lung_25 <- c("H1-9P", "PRKAA2", "RRAGA", "LAMTOR
 
 TBsignatures$CD3Phosphorylation_Reactome_Lung_22 <- c("SH3GL3", "NTRK1", "SH3GL2", "ADCYAP1", "ARC", "NGF", "ADCYAP1R1", "SHC3", "DNM3", "NTRK2", "FOSL1", "LYL1", "MAPK12", "RPS6KA5", "FOSB", "RPS6KA1", "MAPK13", "SRC", "EGR2", "EGR3", "SHC2", "CDK5R1", "DNM1", "DUSP4", "FOS", "RHOA", "EGR1", "AP2M1", "JUNB", "ID2", "YWHAB", "CLTC", "ID4", "GRB2", "AP2B1", "JUND", "F3", "PPP2CB", "CLTA", "RALB", "MAPKAPK2", "STAT3", "TRIB1")
 
-TBsignatures$TLRChaperoneFolding_Reactome_Lung_5 <- c("H19P", "TLR8", "TLR7", "HSP90B1", "CNPY3")
+TBsignatures$TLRChaperoneFolding_Reactome_Lung_5 <- c("H1-9P", "TLR8", "TLR7", "HSP90B1", "CNPY3")
 
 TBsignatures$TLRBindsUNC93B1_Reactome_Lung_4 <- c("TLR8", "TLR7", "TLR3", "UNC93B1")
 
